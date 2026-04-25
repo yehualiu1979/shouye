@@ -32,7 +32,7 @@
 │   └── luci-static/
 │       └── resources/
 │           └── view/
-│               └── dashboard/
+│               └── shouye/
 │                   ├── index.js          # 仪表盘主页
 │                   ├── include/
 │                   │   ├── 10_router.js # 路由器状态
@@ -42,16 +42,16 @@
 │                   │   └── custom.css    # 自定义样式
 │                   └── icons/            # 图标文件
 ├── po/                          # 多语言翻译
-│   └── zh_Hans/dashboard.po     # 简体中文
+│   └── zh_Hans/shouye.po     # 简体中文
 ├── root/                        # 路由器配置文件
 │   └── usr/
 │       └── share/
 │           ├── luci/
 │           │   └── menu.d/
-│           │       └── luci-mod-dashboard.json
+│           │       └── luci-mod-shouye.json
 │           └── rpcd/
 │               └── acl.d/
-│                   └── luci-mod-dashboard.json
+│                   └── luci-mod-shouye.json
 └── Makefile                     # 编译文件
 ```
 
