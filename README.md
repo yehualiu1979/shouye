@@ -1,4 +1,4 @@
-# LuCI Dashboard
+# LuCI Shouye
 
 一个简洁美观的 OpenWrt 路由器仪表盘界面。
 
@@ -25,6 +25,7 @@
 - 已连接设备列表
 
 ## 文件结构
+
 
 ```
 .
@@ -55,10 +56,11 @@
 └── Makefile                     # 编译文件
 ```
 
+
 ## 编译安装
 
 1. 将项目文件复制到 OpenWrt 源码目录
-2. 执行 `make menuconfig` 选择 LuCI → Applications → luci-app-dashboard
+2. 执行 `make menuconfig` 选择 LuCI → Applications → luci-mod-shouye
 3. 编译固件或单独编译 ipk 包
 
 ## 依赖
@@ -70,7 +72,7 @@
 
 ## 预览
 
-访问路由器 `http://192.168.1.1/cgi-bin/luci/admin/dashboard` 查看仪表盘。
+访问路由器 `http://192.168.1.1/cgi-bin/luci/admin/shouye` 查看仪表盘。
 
 ## 许可证
 
