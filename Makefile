@@ -1,17 +1,15 @@
-#
-# Copyright 2019-2020 ZHANG Zhao <Zhao.Zhang2@etu.univ-grenoble-alpes.fr>
-#
-# This is free software, licensed under the Apache License, Version 2.0 .
-#
-
 include $(TOPDIR)/rules.mk
 
+PKG_NAME:=luci-mod-shouye
 LUCI_TITLE:=LuCI Shouye Pages
 LUCI_DEPENDS:=+luci-base +libiwinfo
+LUCI_TYPE:=module
 
-PKG_BUILD_DEPENDS:=iwinfo
 PKG_LICENSE:=Apache-2.0
 
-include ../../luci.mk
-
-# call BuildPackage - OpenWrt buildroot signature
+# 自动判断 luci.mk 位置
+ifneq ($(wildcard $(TOPDIR)/feeds/luci/luci.mk),)
+  include $(TOPDIR)/feeds/luci/luci.mk
+else
+  include ../../luci.mk
+endif
