@@ -1,0 +1,13 @@
+{
+        "admin/shouye": {
+                "title": "Shouye",
+                "order": 1,
+                "action": {
+                        "type": "view",
+                        "path": "shouye/index"
+                },
+                "depends": {
+                        "acl": [ "luci-mod-shouye-index" ]
+                }
+        }
+}
