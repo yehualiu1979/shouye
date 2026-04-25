@@ -1,7 +1,8 @@
 include $(TOPDIR)/rules.mk
 
+PKG_NAME:=luci-mod-shouye
 LUCI_TITLE:=LuCI Shouye Pages
 LUCI_DEPENDS:=+luci-base +libiwinfo
-LUCI_TYPE:=module          # 声明这是一个核心模块（非应用插件）
+LUCI_TYPE:=module
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
