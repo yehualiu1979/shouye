@@ -7,7 +7,7 @@
                         "path": "shouye/index"
                 },
                 "depends": {
-                        "acl": [ "luci-mod-shouye-index" ]
+                        "acl": [ "luci-mod-shouye" ]
                 }
         }
 }
