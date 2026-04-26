@@ -344,7 +344,7 @@ return baseclass.extend({
 			},
 
 			cputemp: {
-				title: _('CPU Temperature'),
+				title: _('CPU 温度'),
 				value: cputemp
 			},
 
