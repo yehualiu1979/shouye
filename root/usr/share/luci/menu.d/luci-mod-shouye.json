@@ -1,6 +1,6 @@
 {
         "admin/shouye": {
-                "title": "Shouye",
+                "title": "首页",
                 "order": 1,
                 "action": {
                         "type": "view",
