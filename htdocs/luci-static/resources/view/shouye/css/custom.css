@@ -4,6 +4,8 @@
 
 .Dashboard {
 	color: var(--text-color-high, #212529) !important;
+    margin: 0 auto;
+    max-width: 1600px; /* 设置最大宽度 */
 }
 
 .Dashboard h3 {
@@ -101,7 +103,7 @@
 }
 
 .Dashboard .internet-status-self .settings-info p:first-child span:first-child{
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 500;
 }
 
@@ -113,8 +115,9 @@
 
 .Dashboard .settings-info p span:first-child {
 	width: 35%;
-	font-size: 12px;
+	font-size: 20px;
 	text-align: right;
+        text-align: center;
 }
 
 .Dashboard .settings-info p span:nth-child(2){
